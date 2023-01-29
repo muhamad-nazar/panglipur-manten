@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Inter:wght@100&family=Lora:ital,wght@0,400;1,500&family=Montserrat:wght@100;400;500&family=Noto+Serif&family=Poppins:wght@100;300;400&family=Smooch&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    font-family: 'Ubuntu';
+    background-color: #FDF6EC;
+}
+
+@keyframes gerak {
+    0% {
+        padding: 0;
+    }
+    25% {
+        padding: 0 1px;
+    }
+    50% {
+        padding: 0;
+    }
+    75% {
+        padding: 0 1px;
+    }
+    100% {
+        padding: 0;
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.carousel-logo-title {
+    color: #064420;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.carousel-text {
+    font-family: 'Lora', sans-serif;
+    font-size: 4.1em;
+    margin-top: -10px;
+    line-height: 65px;
+    font-weight: 550;
+}
+
+.btn-canvases {
+    background-color: #064420;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: -100px;
+}
+
+
+/*
+#064420
+*/
+
+.navbar-brand,
+.nav-link {
+    color: #000;
+    font-family: 'Dosis', sans-serif;
+}
+
+.contact-link {
+    background-color: #064420;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px 0px 50px 0px;
+    -webkit-border-radius: 50px 0px 50px 0px;
+    -moz-border-radius: 50px 0px 50px 0px;
+}
+
+.nav-logo {
+    width: 200px;
+}
+
+.header-p {
+    font-size: 2em;
+    color: #064420;
+}
+
+.header-text {
+    font-weight: bold;
+    color: #064420;
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.5em;
+}
+
+.contents-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.sideImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.sideText {
+    font-weight: bold;
+    font-size: 1em;
+    color: #000;
+    text-decoration: none;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.section-second {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.abouts {
+    color: #fff;
+    font-size: 1em;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.product-title {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.product-info {
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.title-nav-foot {
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2em;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.contact-footer {
+    color: #fff;
+}
+
+.icon-footer {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.icon-footer:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-logo {
+        width: 150px;
+    }
+    .header-p {
+        font-size: 1.5em;
+    }
+    .header-text {
+        font-size: 1.1em;
+    }
+    .ilang {
+        display: none;
+    }
+    .car-home {
+        height: 100%;
+        object-fit: cover;
+    }
+    .section-title {
+        font-size: 1.5em;
+    }
+    .abouts {
+        font-size: 0.9em;
+        line-height: 28px;
+    }
+    .section-second {
+        font-size: 1.3em;
+    }
+    .title-nav-foot {
+        font-size: 1.7em;
+    }
+    .footer-title {
+        font-size: 1.3em;
+    }
+    .carousel-logo-title {
+        font-size: 1em;
+    }
+    .carousel-text {
+        font-size: 3em;
+    }
+    .logo-carousel {
+        width: 320px;
+    }
+}
